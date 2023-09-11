@@ -8,12 +8,20 @@ __email__ = "kaustavofficial1808@gmail.com"
 #Sol - write down the solution in formal language
 
 class solution:
-    def problemFunction(self):
-        pass
+    def factorial(self, n):
+        if n==1: return 1
+        else: return n * self.factorial(n-1)
 
 
 def main():
-    sol = solution()   
+    print("enter -1 to exit")
+    num = int(input())
+    sol = solution()
+
+    while num>0:
+        print("factorial of {num} is {factorial}".format(num=num,factorial=sol.factorial(num)))
+        print("enter -1 to exit")
+        num = int(input())
 
 if __name__ == "__main__":
     main()
