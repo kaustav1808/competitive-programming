@@ -23,8 +23,10 @@ class solution:
 def main():
     sol = solution()
     for i in range (1,51):
+        print("--------------------------------")
         print("{num} divisors is".format(num=i))
         sol.divisors(i)
+        print("--------------------------------")
      
 
 if __name__ == "__main__":
