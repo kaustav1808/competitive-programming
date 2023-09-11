@@ -1,6 +1,6 @@
 {
 	"starterTemplate": {
-		"prefix": "",
+		"prefix": "starterTemplate",
 		"body": [
 		  "__author__ = \"Kaustav Bhattacharya\"",
 		  "__credits__ = \"Kaustav Bhattacharya\"",

@@ -3,9 +3,9 @@ __credits__ = "Kaustav Bhattacharya"
 __maintainer__ = "Kaustav Bhattacharya"
 __email__ = "kaustavofficial1808@gmail.com"
 
-# Problem statement
+# Find out if a string is a palindrome or not using recursion
 
-#Sol - write down the solution in formal language
+#Sol - write a recursion function ispalindrome(arr, start, end)
 
 class solution:
     def isPalindrome(self, arr, start, end):
